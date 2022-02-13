@@ -1,0 +1,137 @@
+Root
+|------ if safety = med | Predicted class: unacc
+|     |------ if persons = 4 | Predicted class: acc
+|     |     |------ if price = vhigh | Predicted class: unacc
+|     |     |     |------ if maint = med | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |------ if maint = low | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |------ if price = high | Predicted class: unacc
+|     |     |     |------ if lug_boot = med | Predicted class: unacc
+|     |     |     |     |------ if doors = 4 | Predicted class: acc
+|     |     |     |     |------ if doors = 6 | Predicted class: acc
+|     |     |     |------ if lug_boot = big | Predicted class: acc
+|     |     |------ if price = med | Predicted class: acc
+|     |     |     |------ if maint = vhigh | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |------ if maint = high | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |------ if maint = low | Predicted class: good
+|     |     |     |     |------ if lug_boot = med | Predicted class: good
+|     |     |------ if price = low | Predicted class: acc
+|     |     |     |------ if maint = vhigh | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |------ if maint = med | Predicted class: good
+|     |     |     |     |------ if lug_boot = med | Predicted class: good
+|     |     |     |------ if maint = low | Predicted class: good
+|     |     |     |     |------ if lug_boot = med | Predicted class: good
+|     |------ if persons = 6 | Predicted class: acc
+|     |     |------ if price = vhigh | Predicted class: unacc
+|     |     |     |------ if maint = med | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |------ if maint = low | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |------ if price = high | Predicted class: unacc
+|     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |     |------ if maint = high | Predicted class: acc
+|     |     |     |     |------ if maint = med | Predicted class: acc
+|     |     |     |     |------ if maint = low | Predicted class: acc
+|     |     |     |------ if lug_boot = big | Predicted class: acc
+|     |     |------ if price = med | Predicted class: acc
+|     |     |     |------ if maint = vhigh | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |------ if maint = high | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |------ if maint = med | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |     |------ if maint = low | Predicted class: good
+|     |     |     |     |------ if lug_boot = small | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: good
+|     |     |------ if price = low | Predicted class: acc
+|     |     |     |------ if maint = vhigh | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: acc
+|     |     |     |------ if maint = high | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |     |------ if maint = med | Predicted class: good
+|     |     |     |     |------ if lug_boot = small | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: good
+|     |     |     |------ if maint = low | Predicted class: good
+|     |     |     |     |------ if lug_boot = small | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: good
+|------ if safety = high | Predicted class: unacc
+|     |------ if persons = 4 | Predicted class: acc
+|     |     |------ if price = vhigh | Predicted class: acc
+|     |     |------ if price = high | Predicted class: acc
+|     |     |------ if price = med | Predicted class: acc
+|     |     |     |------ if maint = med | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |     |     |------ if maint = low | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |     |------ if price = low | Predicted class: vgood
+|     |     |     |------ if maint = high | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |     |     |------ if maint = med | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |     |     |------ if maint = low | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |------ if persons = 6 | Predicted class: acc
+|     |     |------ if price = vhigh | Predicted class: unacc
+|     |     |     |------ if maint = med | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |     |------ if maint = low | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |------ if price = high | Predicted class: acc
+|     |     |     |------ if maint = high | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |     |------ if maint = med | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |     |------ if maint = low | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |------ if price = med | Predicted class: acc
+|     |     |     |------ if maint = vhigh | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |     |------ if maint = high | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |     |------ if maint = med | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = small | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |     |     |------ if maint = low | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = small | Predicted class: good
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |     |------ if price = low | Predicted class: vgood
+|     |     |     |------ if maint = vhigh | Predicted class: acc
+|     |     |     |     |------ if doors = 2 | Predicted class: acc
+|     |     |     |------ if maint = high | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = small | Predicted class: acc
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |     |     |------ if maint = med | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = small | Predicted class: good
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+|     |     |     |------ if maint = low | Predicted class: vgood
+|     |     |     |     |------ if lug_boot = small | Predicted class: good
+|     |     |     |     |------ if lug_boot = med | Predicted class: vgood
+
+ PREDICTIONS 
+
+Predicted    Actual
+unacc  unacc
+unacc  unacc
+acc  acc
+acc  acc
+unacc  unacc
+acc  acc
+acc  acc
+good  good
+unacc  unacc
+good  good
+vgood  vgood
+good  good
+unacc  unacc
+good  good
+vgood  vgood
+acc  acc
+vgood  vgood
+
+ ACCURACY 
+
+Accuracy = 100.0%
