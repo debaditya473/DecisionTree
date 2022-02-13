@@ -200,7 +200,7 @@ if __name__ == "__main__":
     target_name = 'class'
     
     # training data
-    Data = pd.read_csv("project1 1.data", sep= ',', header=None, names=['price', 'maint', 'doors', 'persons', 'lug_boot', 'safety', target_name])
+    Data = pd.read_csv("Data/project1 1.data", sep= ',', header=None, names=['price', 'maint', 'doors', 'persons', 'lug_boot', 'safety', target_name])
 
     root = Node(Data, 0, target_name=target_name)
 
@@ -209,7 +209,7 @@ if __name__ == "__main__":
     root.print_tree()
 
     # test data
-    Data = pd.read_csv("project1_test.data", sep= ',', header=None, names=['price', 'maint', 'doors', 'persons', 'lug_boot', 'safety', target_name])
+    Data = pd.read_csv("Data/project1_test.data", sep= ',', header=None, names=['price', 'maint', 'doors', 'persons', 'lug_boot', 'safety', target_name])
     X = Data.drop(target_name, axis=1)
     Y = Data[target_name]
     Y = Y.values.tolist()
